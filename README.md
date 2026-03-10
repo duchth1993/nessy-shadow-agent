@@ -1,135 +1,36 @@
-# Nessy Shadow Agent – Privacy-Preserving AI Ghost
+# Nessy Shadow Agent – Privacy-Preserving AI Ghost for Luffa
 
-A modern, interactive single-page React web application proof-of-concept for the Luffa messaging platform within the Endless ecosystem.
+A proof-of-concept mini-app that lets Nessy holders create a "Shadow Agent" – an anonymous AI ghost that auto-replies in Luffa chats when offline. All agent behavior and data are fully protected by ZK proofs + E2EE + DID + decentralized relays – no identity leak.
 
-![Nessy Shadow Agent](https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=600&fit=crop)
+**Live Demo:** https://nessy-shadow-agent.vercel.app/
 
-## 🎯 Overview
+![Nessy Shadow Agent Demo Screenshot](demo-screenshot.png)
 
-Nessy Shadow Agent enables Nessy NFT holders to create an anonymous AI-powered "Shadow Agent" that automatically responds in Luffa chats during offline periods. All interactions demonstrate privacy preservation through simulated ZK proofs, end-to-end encryption (E2EE), decentralized identifiers (DID), and decentralized relay architecture—ensuring zero identity exposure.
+## What It Does
+This tool allows users to:
+- Define agent personality & tone (Sassy, Wise, Funny, Calm)
+- Generate a private Shadow Agent using mock AI logic
+- Preview & test in a simulated Luffa chat (user types → agent replies with ghost effect)
+- "Deploy" mock agent with success animation (Nessy flies in + confetti)
+- Toggle privacy demo: "Without ZK" (exposed) vs "With ZK" (hidden & secure)
 
-## ✨ Features
+Nessy appears as a translucent ghost in chat bubbles when replying – only the owner knows it's them.
 
-- **Create Shadow Agent**: Define your agent's personality and tone
-- **Interactive Chat Simulator**: Test your agent with realistic responses
-- **Privacy Demo Toggle**: Visualize the difference between protected and unprotected states
-- **Deploy to Luffa**: Mock deployment with animated success sequence
-- **Beautiful UI**: Dark cyberpunk aesthetic with glassmorphism and neon accents
+## Why It Matters to the Endless Ecosystem
+- **Combines Nessy IP + AI agents + ZK privacy**: Turns Nessy from mascot into a "living" privacy tool.
+- **Increases Luffa retention**: Users stay connected even offline via their own ghost agent.
+- **Showcases advanced privacy**: ZK proofs ensure anonymity, E2EE protects messages, DID owns identity – aligns with Endless core mission.
+- **Viral potential**: Holders can share "ghost replies" screenshots → boosts Nessy engagement & community growth.
+- **Scalable innovation**: Can evolve into real on-chain agent with royalties from fan usage or governance utilities.
 
-## 🛡️ Privacy Features Demonstrated
+## Features (MVP)
+- Personality prompt + tone selection
+- Simulated Luffa chat with ghost Nessy replies
+- Mock ZK proof generation (text animation "Anonymity Verified")
+- Responsive dark-mode UI (Endless aesthetic: purple-black-blue-white)
+- Pure React + Tailwind CSS + Framer Motion – easy to extend
 
-| Feature | Description |
-|---------|-------------|
-| **ZK Proofs** | Zero-knowledge proofs allow verification without revealing identity |
-| **E2EE** | End-to-end encryption ensures only intended recipients can read messages |
-| **DID** | Decentralized identifiers provide self-sovereign identity management |
-| **Decentralized Relays** | Message routing through distributed nodes prevents tracking |
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js 18+ 
-- npm or yarn
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/endless-ecosystem/nessy-shadow-agent.git
-
-# Navigate to project directory
-cd nessy-shadow-agent
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-The application will be available at `http://localhost:5173`
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-## 📦 Deployment to Vercel
-
-### Option 1: Vercel CLI
-
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
-```
-
-### Option 2: GitHub Integration
-
-1. Push your code to GitHub
-2. Import the repository in [Vercel Dashboard](https://vercel.com/new)
-3. Vercel will automatically detect the Vite configuration
-4. Click "Deploy"
-
-The `vercel.json` configuration is already included for optimal deployment.
-
-## 🏗️ Tech Stack
-
-- **React 18** - UI framework with functional components and hooks
-- **TypeScript** - Type-safe development
-- **Tailwind CSS** - Utility-first styling
-- **Framer Motion** - Smooth animations and transitions
-- **Lucide React** - Beautiful icons
-- **Vite** - Fast build tool and dev server
-
-## 📁 Project Structure
-
-```
-src/
-├── components/
-│   ├── AnimatedBackground.tsx  # Particle and wave background
-│   ├── ChatSimulator.tsx       # Interactive chat testing
-│   ├── Confetti.tsx            # Deploy success animation
-│   ├── CreateAgent.tsx         # Agent configuration form
-│   ├── DeploySection.tsx       # Deployment interface
-│   ├── FlyingNessy.tsx         # Flying ghost animation
-│   ├── Footer.tsx              # Footer with links
-│   └── Header.tsx              # Hero section
-├── App.tsx                     # Main application component
-├── index.css                   # Global styles
-└── main.tsx                    # Application entry point
-```
-
-## 🎨 Design System
-
-- **Colors**: Purple (#8b5cf6), Blue (#3b82f6), Cyan (#06b6d4), Pink (#ec4899)
-- **Background**: Deep black (#050508) with gradient overlays
-- **Typography**: Inter font family
-- **Effects**: Glassmorphism, neon glows, particle animations
-
-## 📝 Submission Information
-
-This project is submitted as part of the **Endless Monthly Contribution Program**.
-
-### Contribution Details
-
-- **Category**: Privacy-Preserving Technology PoC
-- **Platform**: Luffa Messaging (Endless Ecosystem)
-- **Focus**: Zero-knowledge identity protection for AI agents
-
-### Contact
-
-- **GitHub**: [endless-ecosystem/nessy-shadow-agent](https://github.com/endless-ecosystem/nessy-shadow-agent)
-- **Hashtag**: #EndlessDev
-
-## 📄 License
-
-MIT License - feel free to use this code for your own projects!
-
----
-
-Made with ❤️ for the Endless ecosystem
+## How to Run / Test
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/duchth1993/nessy-shadow-agent.git
