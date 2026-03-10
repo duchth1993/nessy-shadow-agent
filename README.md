@@ -42,14 +42,14 @@ Nessy appears as a translucent ghost in chat bubbles when replying – only the 
    npm run dev
 4. Or visit live demo: https://nessy-shadow-agent.vercel.app/
 
-Future Improvements
+Future Improvements:
 - Integrate real Endless SDK for DID auth & E2EE chat
 - Add ZK-SNARKS for verifiable anonymous replies
 - On-chain agent deployment mock (testnet)
 - Royalty system for fan-created agent personalities
 - Shareable ghost reply screenshots (with privacy watermark)
 
-Built forEndless Monthly Contribution Program for Developers
+Built for Endless Monthly Contribution Program for Developers
 Submission for: March 2026 cycle @EndlessProtocol @EndlessDevTeam #EndlessDev 
 Made with for privacy-first AI agents & Nessy IP
 Repo: https://github.com/duchth1993/nessy-shadow-agent
