@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
 
           {/* GitHub link */}
           <motion.a
-            href="https://github.com/endless-ecosystem/nessy-shadow-agent"
+            href="https://github.com/duchth1993/nessy-shadow-agent"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-gray-400 hover:text-white hover:border-cyber-purple/50 transition-all"
